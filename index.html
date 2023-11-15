@@ -4,7 +4,173 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="build.css" />
   </head>
-  <body></body>
+  <body>
+    <header
+      class="flex h-20 items-center justify-between bg-[#1B2522] p-2 px-6 capitalize text-white"
+    >
+      <img src="/img/wds_logo.png" alt="" class="w-20" />
+      <nav>
+        <ul class="flex items-center justify-center gap-4">
+          <li>
+            <a href="#" class="transition-opacity hover:opacity-80"
+              >curriculum</a
+            >
+          </li>
+          <li>
+            <a href="#" class="transition-opacity hover:opacity-80">pricing</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="rounded-full bg-sky-600 px-6 py-2 text-white transition-opacity hover:opacity-80"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="flex h-[calc(100vh-5rem)] flex-col items-center justify-center gap-4 bg-[url(/img/header_image.jpg)] bg-cover bg-center capitalize text-white"
+      >
+        <h1 class="mt-auto caption-top text-5xl font-bold">WDS bootcamp</h1>
+        <p class="text-xl">from no stack to full stack</p>
+        <a
+          href="#"
+          class="rounded-full bg-sky-600 px-6 py-2 capitalize text-white transition-opacity hover:opacity-80"
+          >learn more</a
+        >
+        <img src="/img/arrow_down.svg" alt="" class="mt-auto w-16 p-4" />
+      </div>
+      <section class="mx-auto max-w-5xl p-8">
+        <h2 class="text-center text-3xl font-bold">Curriculum</h2>
+        <div class="my-10 flex gap-4">
+          <div class="w-1/2 space-y-10">
+            <div class="flex items-center gap-4">
+              <img src="/img/html_icon.svg" alt="" class="w-12" />
+              <p>
+                Start with the basics by learning HTML/CSS to build your first
+                website
+              </p>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="/img/vscode_icon.svg" alt="" class="w-12" />
+              <p>
+                Use the latest technology for editing and creating amazing web
+                applications
+              </p>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="/img/edit_page_icon.svg" alt="" class="w-12" />
+              <p>
+                Create stunning designs by using modern design tools like Figma
+                and Sketch
+              </p>
+            </div>
+          </div>
+          <div class="w-1/2 space-y-10">
+            <div class="flex items-center gap-4">
+              <img src="/img/node_js_icon.svg" alt="" class="w-12" />
+              <p>
+                Build interactive web applications with the world’s most popular
+                backend
+              </p>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="/img/database_icon.svg" alt="" class="w-12" />
+              <p>
+                Manage application data by learning SQL and NoSQL database
+                architecture
+              </p>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="/img/react_icon.svg" alt="" class="w-12" />
+              <p>
+                Use the most popular frontend framework to create modern PWAs
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#0AF]">
+        <div class="mx-auto max-w-sm space-y-4 p-8 text-center text-white">
+          <h2 class="text-3xl font-bold uppercase">free</h2>
+          <p>
+            That’s right. All of this amazing content is available completely
+            for free on YouTube!
+          </p>
+        </div>
+      </section>
+      <section class="mx-auto max-w-4xl p-8">
+        <h2 class="text-center text-3xl font-bold">Contact</h2>
+        <form class="flex flex-col gap-4">
+          <div class="space-y-1">
+            <div>
+              <label for="name">Name</label>
+            </div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="w-full rounded-md border-2 border-gray-500 px-2 py-1 outline-none"
+            />
+          </div>
+          <div class="space-y-1">
+            <div>
+              <label for="email">Email</label>
+            </div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="w-full rounded-md border-2 border-gray-500 px-2 py-1 outline-none"
+            />
+          </div>
+          <div class="space-y-1">
+            <div>
+              <label for="message">Message</label>
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              rows="2"
+              class="w-full rounded-md border-2 border-gray-500 px-2 py-1 outline-none"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="self-end rounded-full bg-sky-500 px-6 py-2 text-white"
+          >
+            Send
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer
+      class="flex h-20 items-center justify-between bg-[#1B2522] p-2 px-6 capitalize text-white"
+    >
+      <img src="/img/wds_logo.png" alt="" class="w-20" />
+      <nav>
+        <ul class="flex items-center justify-center gap-4">
+          <li>
+            <a href="#" class="transition-opacity hover:opacity-80"
+              >curriculum</a
+            >
+          </li>
+          <li>
+            <a href="#" class="transition-opacity hover:opacity-80">pricing</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="rounded-full bg-sky-600 px-6 py-2 text-white transition-opacity hover:opacity-80"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
